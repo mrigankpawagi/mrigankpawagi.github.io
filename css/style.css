@@ -1262,3 +1262,36 @@ ul.portfolio-image li .desc{
 }
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
+
+
+.btn {
+  background: #148ee0;
+  background-image: -webkit-linear-gradient(top, #148ee0, #0a4970);
+  background-image: -moz-linear-gradient(top, #148ee0, #0a4970);
+  background-image: -ms-linear-gradient(top, #148ee0, #0a4970);
+  background-image: -o-linear-gradient(top, #148ee0, #0a4970);
+  background-image: linear-gradient(to bottom, #148ee0, #0a4970);
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  text-shadow: 6px 4px 5px #0a090a;
+  -webkit-box-shadow: 9px 8px 13px #666666;
+  -moz-box-shadow: 9px 8px 13px #666666;
+  box-shadow: 9px 8px 13px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 29px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2d3d47;
+  background-image: -webkit-linear-gradient(top, #2d3d47, #043452);
+  background-image: -moz-linear-gradient(top, #2d3d47, #043452);
+  background-image: -ms-linear-gradient(top, #2d3d47, #043452);
+  background-image: -o-linear-gradient(top, #2d3d47, #043452);
+  background-image: linear-gradient(to bottom, #2d3d47, #043452);
+  text-decoration: none;
+}
