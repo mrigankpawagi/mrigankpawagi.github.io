@@ -1265,15 +1265,28 @@ ul.portfolio-image li .desc{
 
 
 .btn {
-  box-shadow: rgb(138, 42, 33) 3px 3px 19px 4px; background-color: rgb(198, 45, 31); border-radius: 42px; border: 2px solid rgb(208, 39, 24); display: inline-block; cursor: pointer; color: rgb(255, 255, 255); font-family: Arial; font-size: 24px; font-weight: bold; padding: 7px 25px; text-decoration: none; text-shadow: rgb(129, 14, 5) -1px 3px 0px;
+	-moz-box-shadow: 3px 3px 19px 4px #8a2a21;
+	-webkit-box-shadow: 3px 3px 19px 4px #8a2a21;
+	box-shadow: 3px 3px 19px 4px #8a2a21;
+	background-color:#c62d1f;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:-1px 3px 0px #810e05;
 }
-
 .btn:hover {
-  background: #2d3d47;
-  background-image: -webkit-linear-gradient(top, #2d3d47, #043452);
-  background-image: -moz-linear-gradient(top, #2d3d47, #043452);
-  background-image: -ms-linear-gradient(top, #2d3d47, #043452);
-  background-image: -o-linear-gradient(top, #2d3d47, #043452);
-  background-image: linear-gradient(to bottom, #2d3d47, #043452);
-  text-decoration: none;
+	background-color:#f24437;
+}
+.btn:active {
+	position:relative;
+	top:1px;
 }
