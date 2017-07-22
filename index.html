@@ -194,10 +194,18 @@
 	padding:7px 25px;
 	text-decoration:none;
 	text-shadow:-1px 3px 0px #810e05;
-                                                                    " onhover="background-color:#f24437;" onactive="position:relative;
-	top:1px;"></a></p>
+                                                                    " onmouseover="over(this)" onmouseout="out()"></a></p>
           
         </div>
+	      <script>
+		      function over(e){
+		      e.style.backgroundColor="#f24437";
+		      }
+		      function out(e){
+		      e.style.backgroundColor="#c62d1f";
+		      }
+	      </script>
+	      
         <!--CONTACT-->
         <section id="contact" class="white-bg">
           <div class="container">
