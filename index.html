@@ -30,6 +30,34 @@
     <![endif]-->
 	  
 	  <style>
+		  
+		  .android{
+		  
+			  
+                                                                    -moz-box-shadow: 3px 3px 19px 4px #8a2a21;
+	-webkit-box-shadow: 3px 3px 19px 4px #8a2a21;
+	box-shadow: 3px 3px 19px 4px #8a2a21;
+	
+  background: url("images/android.png"), rgb(125,213,105);
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:-1px 3px 0px #810e05;
+		  }
+		  
+		  .android :hover{
+		    background: url("images/android.png"), rgb(11, 130, 47);
+		  }
+		  
 		  .button{
 			  
                                                                     -moz-box-shadow: 3px 3px 19px 4px #8a2a21;
@@ -49,6 +77,10 @@
 	padding:7px 25px;
 	text-decoration:none;
 	text-shadow:-1px 3px 0px #810e05;
+		  }
+		  .button  :hover{
+		  background-color:#f24437;
+		border: 2px solid #f24437;
 		  }
 	  </style>
 	  
@@ -206,24 +238,19 @@
         <div id="items" style='margin-bottom:100px;'>
           <h2 align="center" >Products</h2>
         <p align="center"><a href="https://mrigankpawagi.github.io/socialme/">
-            <input type="button" value="SocialME" class='button' onmouseover="over(this)" onmouseout="out(this)"></a></p>
+            <input type="button" value="SocialME" class='button'></a></p>
+          <p align="center"><a href="program/SocialME.apk">
+            <input type="button" value="Get the Android App" class='android'></a></p>
           
         </div>
 	      <div id="art" style='margin-top:100px;'>
           <h2 align="center">Articles</h2>
         <p align="center"><a href="https://mrigankpawagi.github.io/cyberlock/">
-            <input type="button" value="CyberLock" class='button' onmouseover="over(this)" onmouseout="out(this)"></a></p>
+            <input type="button" value="CyberLock" class='button'></a></p>
           
         </div>
 	      
-	      <script>
-		      function over(e){
-		      e.style.backgroundColor="#f24437";
-		      }
-		      function out(e){
-		      e.style.backgroundColor="#c62d1f";
-		      }
-	      </script>
+	      
 	      
         <!--CONTACT-->
         <section id="contact" class="white-bg">
