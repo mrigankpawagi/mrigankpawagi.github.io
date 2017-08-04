@@ -36,13 +36,13 @@
 			  
                                                                     -moz-box-shadow: 3px 3px 19px 4px #8a2a21;
 	-webkit-box-shadow: 3px 3px 19px 4px #8a2a21;
-	box-shadow: 3px 3px 19px 4px #8a2a21;
+	box-shadow: 3px 3px 19px 4px rgb(11, 130, 47);
 	
   background: url("images/android.png"), rgb(125,213,105);
 	-moz-border-radius:42px;
 	-webkit-border-radius:42px;
 	border-radius:42px;
-	border:2px solid #d02718;
+	border:2px solid rgb(11, 130, 47);
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -51,10 +51,10 @@
 	font-weight:bold;
 	padding:7px 25px;
 	text-decoration:none;
-	text-shadow:-1px 3px 0px #810e05;
+	text-shadow:-1px 3px 0px rgb(11, 130, 47);
 		  }
 		  
-		  .android :hover{
+		  #app:hover{
 		    background: url("images/android.png"), rgb(11, 130, 47);
 		  }
 		  
@@ -78,7 +78,7 @@
 	text-decoration:none;
 	text-shadow:-1px 3px 0px #810e05;
 		  }
-		  .button  :hover{
+		  #l1:hover, #l2:hover{
 		  background-color:#f24437;
 		border: 2px solid #f24437;
 		  }
@@ -238,15 +238,15 @@
         <div id="items" style='margin-bottom:100px;'>
           <h2 align="center" >Products</h2>
         <p align="center"><a href="https://mrigankpawagi.github.io/socialme/">
-            <input type="button" value="SocialME" class='button'></a></p>
+            <input type="button" value="SocialME" class='button' id='l1'></a></p>
           <p align="center"><a href="program/SocialME.apk">
-            <input type="button" value="Get the Android App" class='android'></a></p>
+            <input type="button" value="Get the Android App" class='android' id='app'></a></p>
           
         </div>
 	      <div id="art" style='margin-top:100px;'>
           <h2 align="center">Articles</h2>
         <p align="center"><a href="https://mrigankpawagi.github.io/cyberlock/">
-            <input type="button" value="CyberLock" class='button'></a></p>
+            <input type="button" value="CyberLock" class='button' id-'l2'></a></p>
           
         </div>
 	      
