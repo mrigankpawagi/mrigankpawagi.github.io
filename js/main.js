@@ -89,13 +89,12 @@
 
 
     //typed js
-    $(".typed").typed({
-        strings: ["Connecting People", "A Community", "The Social Network"],
+    var typed = new Typed(".typed", {
+        strings: ["I'm a Full Stack Developer.", "I ❤ Minimalism.","I ❤ Creativity.", "I faciliate Indivisuals. ", "I empower the world."],
         typeSpeed: 100,
         backDelay: 900,
-        // loop
         loop: true
-    });
+});
 
     //owl carousel
     $('.owl-carousel').owlCarousel({
@@ -138,7 +137,7 @@
     });
 
     //pop up porfolio
-    $('.portfolio-image li a').magnificPopup({
+    $('.certificates').magnificPopup({
       type: 'image',
       gallery: {
         enabled: true

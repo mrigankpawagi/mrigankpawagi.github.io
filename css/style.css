@@ -106,7 +106,7 @@ img { max-width: 100%; }
   top: 50%;
   background-image: url(../images/loader.gif);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   text-align: center;
   margin: -40px 0 0 -100px;
 }
@@ -114,6 +114,7 @@ img { max-width: 100%; }
   text-align: center;
   margin-top: -80px;
 }
+
 
 /*----------------------------------------- 3) Helper --------------------------------------------------*/
 .no-pad {padding: 0 !important; margin: 0 !important;}
@@ -515,6 +516,7 @@ p {
   height: 100%;
   width: 100%;
   display: block;
+      background-position: center right;
 }
 .wrap-hero-content{
   width: 100%;
@@ -914,6 +916,7 @@ ul.portfolio-image li .desc{
 .bg-about {
   background: url('../images/me.jpg');
   -webkit-background-size: cover;
+  background-position: center;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -1263,30 +1266,18 @@ ul.portfolio-image li .desc{
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
 
+#logo-image{
 
-.btn {
-	-moz-box-shadow: 3px 3px 19px 4px #8a2a21;
-	-webkit-box-shadow: 3px 3px 19px 4px #8a2a21;
-	box-shadow: 3px 3px 19px 4px #8a2a21;
-	background-color:#c62d1f;
-	-moz-border-radius:42px;
-	-webkit-border-radius:42px;
-	border-radius:42px;
-	border:2px solid #d02718;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:24px;
-	font-weight:bold;
-	padding:7px 25px;
-	text-decoration:none;
-	text-shadow:-1px 3px 0px #810e05;
+  height: 50px;
+    width: auto;
 }
-.btn:hover {
-	background-color:#f24437;
+.icon-work{
+  height: auto;
+  width: 20px;
 }
-.btn:active {
-	position:relative;
-	top:1px;
+
+#contact-field-container{
+  float: right;
+  width: 450px;
+  max-width: 100%;
 }
