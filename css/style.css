@@ -837,6 +837,7 @@ p {
   .owl-item {
     margin: auto;
     width: 100%!important;
+<<<<<<< HEAD
   }
 
   .timeline-feed{
@@ -854,6 +855,8 @@ p {
     transition: 0.3s all;
     border: 2px solid #FFEB3B;
     background: #fff;
+=======
+>>>>>>> origin/master
   }
 .sortButtonsContainer{display: none;}
   .sortButtons {
