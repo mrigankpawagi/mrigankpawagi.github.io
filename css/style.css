@@ -820,6 +820,7 @@ p {
   .timeline-item {
     padding: 15px;
     background: #fff;
+    transition: 0.3s all;
   }
   .timeline-item.job header:before {
     top: -17px;
@@ -835,5 +836,39 @@ p {
   }
   .owl-item {
     margin: auto;
+    width: 100%!important;
+  }
+
+  .timeline-feed{
+    display: none;
   }
   
+  #toggleTimeline{
+    font-family: 'Roboto Slab', serif;
+    
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 20px;
+    transition: 0.3s all;
+    border: 2px solid #FFEB3B;
+    background: #fff;
+  }
+.sortButtonsContainer{display: none;}
+  .sortButtons {
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid #9C27B0;
+    background: #fff;
+    font-family: 'Roboto Slab', serif;
+    margin: 5px;
+    transition: 0.3s all;
+}
+
+
+.sortButtons.selected, .sortButtons:hover{
+  background: #9C27B0;
+  color: #fff;
+}
