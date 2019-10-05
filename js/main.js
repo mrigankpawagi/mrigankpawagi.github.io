@@ -56,6 +56,7 @@
             $(".sortButtonsContainer").fadeIn(200);
         }
     });
+<<<<<<< HEAD
 
     var sort = [];
     $('.sortButtons').click(function() {
@@ -110,3 +111,69 @@
 
 }
 )(jQuery);
+=======
+  }
+  window.onload = inits();
+
+  $("#toggleTimeline").click(function(){
+    if ($(this).hasClass("active")){
+      $(this).html('Show Timeline <span class="glyphicon glyphicon-chevron-down"></span>');
+    $(this).addClass('inactive');
+    $(this).removeClass('active');
+    $(".timeline-feed").fadeOut(200);
+    $(".sortButtonsContainer").fadeOut(200);
+    }
+    else{
+      $(this).html('Hide Timeline <span class="glyphicon glyphicon-chevron-up"></span>');
+      $(this).addClass('active');
+    $(this).removeClass('inactive');
+    $(".timeline-feed").fadeIn(200);
+    $(".sortButtonsContainer").fadeIn(200);
+    }
+  });
+
+var sort = [];
+$('.sortButtons').click(function(){
+  if ($(this).hasClass('selected')){
+    sort.splice(sort.indexOf($(this).attr('data-sort-class')), 1);
+    $(this).removeClass('selected');
+  }
+  else{
+    sort.push($(this).attr('data-sort-class'));
+    $(this).addClass('selected');
+  }
+
+  if(sort.length == 0){
+    $('.timeline-item').css({
+        'opacity': '',
+        'height': '',
+        'padding': '',
+        'margin': '' 
+      });
+    $('.timeline-item *').show();
+  }
+  else{
+      $('.timeline-item').css({
+        'opacity': '0',
+        'height': '0',
+        'padding': '0',
+        'margin': '0' 
+      });
+      $('.timeline-item *').hide();
+    sort.forEach(function(e, i) {
+      $(e).css({
+        'opacity': '',
+        'height': '',
+        'padding': '',
+        'margin': '' 
+      });
+      $(e + " *").show();
+    });
+  }
+
+  console.log(sort);
+
+});
+
+})(jQuery);
+>>>>>>> origin/master
